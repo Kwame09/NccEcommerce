@@ -45,34 +45,19 @@ if (window.location.pathname.includes('index.html')){
 
 
 //Modal 
-// Get the modal elements
-var modals = document.getElementsByClassName('modal');
+window.onload = function() {
+  const popupModal = document.getElementById('popupModal');
+  const closeModalBtn = document.getElementById('closeModalBtn');
 
-// Get the <span> element that closes the modal
-var spans = document.getElementsByClassName("close");
+  popupModal.style.display = 'flex';
 
-// Loop through the modals and add click event listeners to each one
-for (var i = 0; i < modals.length; i++) {
-  modals[i].style.display = "none";
-  
-  // Open the modal on click
-  modals[i].addEventListener("click", function() {
-    this.style.display = "block";
+  closeModalBtn.addEventListener('click', function () {
+      popupModal.style.display = 'none';
   });
-  
-  // Close the modal on click of the close button
-  spans[i].addEventListener("click", function() {
-    for (var j = 0; j < modals.length; j++) {
-      modals[j].style.display = "none";
-    }
+
+  window.addEventListener('click', function (event) {
+      if (event.target === popupModal) {
+          popupModal.style.display = 'none';
+      }
   });
 }
-
-// Add a click event listener to the document to close the modal if the user clicks outside of it
-document.addEventListener("click", function(event) {
-  if (event.target.classname === "modal-content") {
-    for (var j = 0; j < modals.length; j++) {
-      modals[j].style.display = "none";
-    }
-  }
-});
