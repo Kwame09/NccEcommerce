@@ -1,9 +1,23 @@
 window.onload = () => { 
+
   const menuToggle = document.querySelector('.menu-toggle'); 
   const nav = document.querySelector('nav'); 
   menuToggle.addEventListener('click', () => { nav.classList.toggle('show'); 
 }); 
 }; 
+
+const riseDesk = document.querySelector('#RiseDesk');
+console.log(riseDesk);
+riseDesk?.addEventListener("click", ()=>{
+  const riseDeskdiplay = document.querySelector('.dropdown-menu').style.display
+  if (riseDeskdiplay == "none"){
+    document.querySelector(".dropdown-menu").style.display="block";
+    }else{document.querySelector(".dropdown-menu").style.display="none"}
+});
+
+
+
+
 
 /*Video section*/
 const video = document.querySelector('.video-section video');
