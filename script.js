@@ -27,7 +27,7 @@ if (window.location.pathname.includes('index.html')){
     if (currentSlide >= slides.children.length) {
       currentSlide = 0
     }
-    slides.style.transform = `translateX(-${currentSlide * 100}%)`
+    slides.style.transform = `translateX(-${currentSlide * 50}%)`
   })
 
   prevBtn.addEventListener('click', function() {
@@ -35,7 +35,7 @@ if (window.location.pathname.includes('index.html')){
     if (currentSlide < 0) {
       currentSlide = slides.children.length - 1
     }
-    slides.style.transform = `translateX(-${currentSlide * 100}%)`
+    slides.style.transform = `translateX(-${currentSlide * 50}%)`
   })
 
   setInterval(function() {
