@@ -1,0 +1,19 @@
+/* Make each slide take up full width on small screens */
+@media (max-width: 768px) {
+  .carousel-slide {
+    flex-wrap: wrap;
+    width: 100%; 
+  }
+
+  .carousel-image {
+    width: 100%;
+  }
+
+  .carousel-image img {
+    width: 100%;
+  }
+
+  .carousel-image .pro-text {
+    width: 100%;
+  } 
+}

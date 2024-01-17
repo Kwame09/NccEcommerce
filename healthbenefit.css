@@ -1,0 +1,127 @@
+/* Health Benefits Page Styles */
+
+.healbenefit {
+    padding: 2rem;
+    margin-top: 50px;
+  }
+
+  .video-container {
+    max-width: 100%;
+    margin-bottom: 2rem;
+  }
+  
+  video {
+    width: 100%;
+    height: auto;
+  }
+  
+  .healbenefit h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #444;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .video-container {
+    max-width: 100%;
+    margin-bottom: 2rem;
+  }
+  
+  video {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+  }
+  
+  .container-text {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 2rem;
+  }
+  
+  .container-text h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #444;
+  }
+  
+  .container-text p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .container-text img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  /*
+  @media screen and (max-width: 768px) {
+    .healbenefit h1 {
+      font-size: 2rem;
+    }
+  
+    .container-text h2 {
+      font-size: 1.2rem;
+    }
+  
+    .container-text p {
+      font-size: 0.9rem;
+    }
+  }
+
+  */
+
+
+  @media screen and (max-width: 768px) {
+    .healbenefit h1 {
+      font-size: 2rem;
+    }
+  
+    .container-text h2 {
+      font-size: 1.2rem;
+    }
+  
+    .container-text p {
+      font-size: 0.9rem;
+    }
+    .container-text {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .container-text {
+      grid-template-columns: 1fr;
+    }
+    .video-container {
+      max-width: 100%;
+    }
+    video {
+      max-width: 100%;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
