@@ -19,6 +19,7 @@ riseDesk?.addEventListener("click", ()=>{
 
 
 
+
 /*Video section*/
 const video = document.querySelector('.video-section video');
 
