@@ -27,12 +27,16 @@
   .video-container {
     max-width: 100%;
     margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(241, 241, 241);
   }
   
   video {
     width: 100%;
     max-width: 800px;
-    height: auto;
+    height: 500px;
   }
   
   .container-text {
