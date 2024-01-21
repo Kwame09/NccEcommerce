@@ -674,9 +674,10 @@ margin-top: 10px;
     position: relative;
 }
 
+
 .showcaseTop h2{
   font-size: 2rem;
-  margin-bottom:20 ;
+  margin-bottom:25px;
 }
 
 .details {
@@ -688,7 +689,20 @@ margin-top: 10px;
     position: relative;
     border-radius: 10px;
     height: 350px;
+    overflow: hidden;
+    border: 1px solid gainsboro;
 }
+
+.details img {
+  transition: transform 0.3s;
+}
+
+.details img:hover {
+  transform: scale(1.1);
+}
+
+
+
 
 .details img{
     height: 100%;
@@ -707,17 +721,13 @@ margin-top: 10px;
     align-items: center;
     display: flex;
     flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
 }
 
 .subText-container span{
     letter-spacing: 4px;
     font-size: 1rem;
-}
-
-.subText-container p{
-    letter-spacing: 2px;
-    font-size: 1rem;
-    font-weight: 400;
 }
 
 .btn0{
@@ -794,6 +804,7 @@ input[type="submit"] {
   color: rgb(38, 37, 37);
   font-weight: 700;
   padding: 10px;
+  margin-bottom: 25px;
 
 }
 
@@ -842,6 +853,13 @@ input[type="submit"] {
     position: relative;
     align-items: center;
     border: none;
+    margin-top: 80px;
+  }
+
+  .carousel h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   @media (max-width: 768px) {
@@ -930,7 +948,6 @@ input[type="submit"] {
 .subs{
     display: flex;
     justify-content: space-between;
-    padding: 8vmax;
 }
 
 .subscription-container {
