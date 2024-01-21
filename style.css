@@ -948,6 +948,7 @@ input[type="submit"] {
 .subs{
     display: flex;
     justify-content: space-between;
+    
 }
 
 .subscription-container {
@@ -1028,6 +1029,12 @@ input[type="submit"] {
     margin-left: 10px;
     display: flex;
     justify-content: flex-start;
+}
+@media (max-width: 768px) {
+  .subs{
+    padding:0 20px;
+  }
+   
 }
 
 
