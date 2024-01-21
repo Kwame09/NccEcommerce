@@ -33,7 +33,7 @@ const video = document.querySelector('.video-section video');
 
 video.addEventListener('click', () => {
   video.play();
-  video.muted = false; // Unmute when clicked
+  video.muted = false; 
 });
 
 
@@ -62,8 +62,8 @@ if (window.location.pathname.includes('index.html')){
   })
 
   setInterval(function() {
-    nextBtn.click() // Simulate a click on the next button
-  }, 3000) // Change the interval (3000 milliseconds = 3 seconds) as needed
+    nextBtn.click() 
+  }, 3000) 
 }
 
 

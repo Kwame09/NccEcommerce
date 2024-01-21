@@ -61,23 +61,6 @@
     height: auto;
     border-radius: 5px;
   }
-  
-  /*
-  @media screen and (max-width: 768px) {
-    .healbenefit h1 {
-      font-size: 2rem;
-    }
-  
-    .container-text h2 {
-      font-size: 1.2rem;
-    }
-  
-    .container-text p {
-      font-size: 0.9rem;
-    }
-  }
-
-  */
 
 
   @media screen and (max-width: 768px) {

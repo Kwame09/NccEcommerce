@@ -22,14 +22,14 @@
     padding: 10px;
     margin-bottom: 20px;
     border: 1px solid #ddd;
-    border-radius: 5px;
     box-sizing: border-box;
   }
   
+  
   #contact input[type="submit"] {
-    background-color: #4CAF50;
+    background-color: black;
     color: white;
-    border: none;
+    border: 1px solid black;
     border-radius: 5px;
     padding: 10px 20px;
     cursor: pointer;
@@ -37,7 +37,8 @@
   }
   
   #contact input[type="submit"]:hover {
-    background-color: #3e8e41;
+    background-color: white;
+    color: black;
   }
   
   @media (max-width: 768px) {
